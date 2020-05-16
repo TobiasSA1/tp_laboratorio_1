@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1589663736 source:c:\users\toby\desktop\tp2\tp2\employees.c
+	<stdio.h>
+	<string.h>
+	"Employees.h"
+
+1589663444 c:\users\toby\desktop\tp2\tp2\employees.h
+
+1589663474 source:c:\users\toby\desktop\tp2\tp2\main.c
+	<stdio.h>
+	<string.h>
+	"Employees.h"
+

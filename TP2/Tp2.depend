@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1601537063 source:c:\users\toby\desktop\todo\frappps\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employees.h"
+
+1601536244 c:\users\toby\desktop\todo\frappps\tp2\employees.h
+
+1601536696 source:c:\users\toby\desktop\todo\frappps\tp2\employees.c
+	<stdio.h>
+	<string.h>
+	"Employees.h"
+

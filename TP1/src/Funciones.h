@@ -1,4 +1,8 @@
-#include "Funciones.c"
+#ifndef FUNCIONES_H_
+#define FUNCIONES_H_
+
+
+
 /*
 *
 *\brief Pide que ingreses un valor y lo valida por si es 0
@@ -6,7 +10,7 @@
 *\return Retorna el valor del numero ingresado
 *
 */
-int pedirNumero(int A);
+float pedirNumero(float A);
 /*
 *
 *\brief Suma dos numeros
@@ -15,7 +19,7 @@ int pedirNumero(int A);
 *\return Retorna la suma entre ambos
 *
 */
-int OperacionSuma (int A,int B);
+float OperacionSuma(float A,float B);
 /*
 *
 *\brief Resta dos numeros
@@ -24,7 +28,7 @@ int OperacionSuma (int A,int B);
 *\return Retorna la resta entre ambos
 *
 */
-int OperacionResta (int A,int B);
+float OperacionResta(float A,float B);
 /*
 *
 *\brief Divide dos numeros
@@ -33,7 +37,7 @@ int OperacionResta (int A,int B);
 *\return Retorna la multiplicacion entre ambos
 *
 */
-int OperacionMultiplicacion (int A,int B);
+float OperacionMultiplicacion(float A,float B);
 /*
 *
 *\brief Divide dos numeros
@@ -42,7 +46,7 @@ int OperacionMultiplicacion (int A,int B);
 *\return Retorna la division entre ambos
 *
 */
-float OperacionDivision (int A,int B);
+float OperacionDivision(float A,float B);
 
 /*
 *
@@ -51,4 +55,17 @@ float OperacionDivision (int A,int B);
 *\return retorna el valor de los factoriales
 *
 */
-int OperacionFactoriales (int A);
+float OperacionFactorial(float num);
+
+/*
+*
+*\brief Muesta el menu por pantalla y pide una opcion
+*\param A, Es el operando A elegido que se muestra siempre
+*\param B, Es el operando B elegido que se muestra siempre
+*\param
+*\return retorna la opcion elegida
+*/
+int menu(float A,float B);
+
+
+#endif /* FUNCIONES_H_ */

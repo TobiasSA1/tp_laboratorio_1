@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1599672654 source:c:\users\toby\desktop\calculadora\funciones.c
-	<stdio.h>
-	<string.h>
-
-1599672654 source:c:\users\toby\desktop\calculadora\main.c
-	<stdio.h>
-	<string.h>
-

@@ -105,5 +105,5 @@ int main()
         }
 
     }
-    while(opcion!=4);
+    while(opcion!=5);
 }
